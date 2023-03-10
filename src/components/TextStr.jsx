@@ -13,6 +13,8 @@ const TextStr = props => {
                 return styles.textLight
             case 'dark':
                 return styles.textDark
+            case 'lightdark':
+                return styles.textLightDark
             case 'red':
                 return styles.textRed
             case 'green':
@@ -45,6 +47,9 @@ const styles = StyleSheet.create({
     },
     textDark: {
         color: '#808080'
+    },
+    textLightDark: {
+        color: '#A8ADA8'
     },
     textRed: {
         color: '#FF3131'

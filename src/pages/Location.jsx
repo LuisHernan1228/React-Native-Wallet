@@ -37,7 +37,7 @@ const Location = ({ navigation }) => {
                 <View style={[g.flexRow, {marginVertical: 20}]}>
                     <View />
                     <TouchableOpacity>
-                        <TextStr underline={true} strValue="Change Username" />
+                        <TextStr color="lightdark" underline={true} strValue="Change Username" />
                     </TouchableOpacity>
                 </View>
                 <Input
